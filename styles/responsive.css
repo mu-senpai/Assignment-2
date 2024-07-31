@@ -193,7 +193,7 @@
     }
 
     .banner-button-container{
-        margin: 0 35px;
+        margin: 0 15px;
     }
 
     #banner-primary-button-mobile-span{
@@ -217,6 +217,6 @@
     .banner-image-tutorial-box{
         padding: 10px 15px;
         bottom: 300px;
-        right: 220px;
+        right: 200px;
     }
 }
