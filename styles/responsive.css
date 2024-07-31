@@ -1,0 +1,222 @@
+/* Responsive for S-size Mobile devices */
+@media screen and (max-width: 320px){
+    .miama-heading{ 
+        font-size: 4rem;
+    }
+
+    .btn-primary, .btn-secondary{
+        padding: 16px 20px;
+    }
+
+    .banner-container{
+        margin-top: 30px;
+    }
+
+    .nav-bar{
+        padding: 0 10px;
+    }
+
+    .nav-listing-container{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .banner-content-container{
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-heading{
+        font-size: 2.25rem;
+        margin-left: 10px;
+    }
+
+    .banner-description{
+        margin-left: 10px;
+    }
+
+    .banner-button-container{
+        margin: 0 auto;
+    }
+
+    #banner-primary-button-mobile-span{
+        display: none;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+
+    .banner-image-workout-box{
+        padding: 10px;
+        top: 440px;
+        right: 4px;
+    }
+
+    .workout-box-number{
+        font-size: 2rem;
+    }
+
+    .banner-image-tutorial-box{
+        padding: 10px;
+        bottom: 200px;
+        right: 135px;
+    }
+}
+
+/* Responsive for M-size Mobile devices */
+@media screen and (min-width: 320.5px) and (max-width: 375.5px){
+    .miama-heading{ 
+        font-size: 4rem;
+    }
+    
+    .btn-secondary{
+        padding: 16px 20px;
+    }
+
+    .banner-container{
+        margin-top: 30px;
+    }
+
+    .nav-bar{
+        padding: 0 20px;
+    }
+
+    .nav-listing-container{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .banner-content-container{
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-heading{
+        font-size: 2.25rem;
+        margin-left: 20px;
+    }
+
+    .banner-description{
+        margin-left: 20px;
+    }
+
+    .banner-button-container{
+        margin: 0 10px;
+    }
+
+    #banner-primary-button-mobile-span{
+        display: none;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+
+    .banner-image-workout-box{
+        padding: 10px 15px;
+        top: 420px;
+        right: 12px;
+    }
+
+    .banner-image-tutorial-box{
+        padding: 10px 15px;
+        bottom: 250px;
+        right: 170px;
+    }
+}
+
+/* Responsive for L-size Mobile devices */
+@media screen and (min-width: 375.5px) and (max-width: 576px){
+    .miama-heading{ 
+        font-size: 4rem;
+    }
+    
+    .btn-secondary{
+        padding: 16px 20px;
+    }
+
+    .banner-container{
+        margin-top: 30px;
+    }
+
+    .nav-bar{
+        padding: 0 20px;
+    }
+
+    .nav-listing-container{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+    }
+
+    .banner-content-container{
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-heading{
+        font-size: 2.25rem;
+        margin-left: 20px;
+    }
+
+    .banner-description{
+        margin-left: 20px;
+    }
+
+    .banner-button-container{
+        margin: 0 35px;
+    }
+
+    #banner-primary-button-mobile-span{
+        display: none;
+    }
+
+    .banner-image{
+        width: 100%;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+
+    .banner-image-workout-box{
+        padding: 10px 20px;
+        top: 440px;
+        right: 20px;
+    }
+
+    .banner-image-tutorial-box{
+        padding: 10px 15px;
+        bottom: 300px;
+        right: 220px;
+    }
+}
