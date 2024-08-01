@@ -160,4 +160,43 @@
         grid-template-columns: repeat(1, 1fr);
     }
     /* team section responsive ends */
+
+    .bmi-section-headings{
+        max-width: 90vw;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .calculate-bmi-section{
+        margin-top: 35px;
+    }
+
+    .calculate-bmi-container{
+        max-width: 95%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .calculate-bmi-heading{
+        font-size: 1rem;
+    }
+
+    .bmi-chart{
+        width: 100%;
+        padding: 30px 0 40px 0;
+        gap: 20px;
+    }
+
+    .calculate-bmi-form{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .calculate-bmi-form input[type="number"]{
+        width: 42%;
+    }
+
+    .calculate-bmi-form select[id="Sex"]{
+        width: 47.5%;
+    }
 }

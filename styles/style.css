@@ -30,8 +30,16 @@
     display: flex;
 }
 
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
 .section-container{
-    border: 1px solid white;
+    border: 1px solid black;
     padding-top: 100px;
 }
 
@@ -40,7 +48,6 @@
     font-weight: 900;
     color: rgb(255, 255, 255);
     margin: 0;
-    text-align: center;
 }
 
 .section-description{
@@ -48,7 +55,6 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin: 0;
-    text-align: center;
 }
 
 .btn-primary{
@@ -351,6 +357,7 @@
 }
 /* extra mile section styling ends */
 
+/* team section styling starts */
 .team-section-container{
     max-width: 73.61vw;
     margin: 0 auto;
@@ -399,7 +406,6 @@
     border-radius: 18px;
     object-fit: cover;
     object-position: top;
-    /* opacity: 0.8; */
 }
 
 .team-members-description{
@@ -421,3 +427,123 @@
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
 }
+/* team section styling ends */
+
+/* calculate bmi section styling starts */
+.bmi-section-headings{
+    max-width: 45.5vw;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.calculate-bmi-section{
+    max-width: 100vw;
+    background-color: rgb(34, 34, 34);
+    margin-top: 88px;
+}
+
+.calculate-bmi-container{
+    max-width: 73.61%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi-chart{
+    width: 45%;
+    padding: 52px 0 133px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 52px;
+}
+
+.calculate-bmi-heading{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.calculate-bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.bmi-chart-table{
+    border-collapse: collapse;
+}
+
+.bmi-chart-table td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+
+.bmi-chart-table thead td{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.bmi-chart-table tbody td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.calculate-bmi-form{
+    width: 55%;
+}
+
+.calculate-bmi-form-options{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.calculate-bmi-form input[type="number"]{
+    width: 45%;
+    padding: 12px 0 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-form select[id="Sex"]{
+    width: 48.5%;
+    padding: 11px 0 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-form select[id="Activity"]{
+    width: 100%;
+    padding: 11px 0 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.calculate-bmi-form select option{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* calculate bmi section styling ends */
