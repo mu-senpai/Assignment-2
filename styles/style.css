@@ -538,12 +538,15 @@
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 22px;
 }
 
 .calculate-bmi-form select option{
     color: black;
     font-size: 1rem;
     font-weight: 400;
+}
+
+.calculate-bmi-form-button{
+    margin-top: 30px;
 }
 /* calculate bmi section styling ends */
