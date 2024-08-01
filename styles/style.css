@@ -11,7 +11,7 @@
 
 .miama-heading{
     font-family: 'Miama', sans-serif; 
-    font-size: 7.5rem;
+    font-size: 9rem;
     font-weight: 400;
     font-style: normal;
     color: white;
@@ -28,6 +28,27 @@
 
 .display-flex{
     display: flex;
+}
+
+.section-container{
+    border: 1px solid white;
+    padding-top: 100px;
+}
+
+.section-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    text-align: center;
 }
 
 .btn-primary{
@@ -133,7 +154,7 @@
 .banner-heading{
     font-size: 4.875rem;
     font-weight: 900;
-    line-height: 120%;
+    line-height: 115%;
     letter-spacing: 0%;
     text-align: left;
     margin: 0;
@@ -222,3 +243,56 @@
 }
 /* banner content styling ends */
 /* banner section styling ends */
+
+.change-habit-container{
+    max-width: 72.5vw;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+}
+
+.change-habit-headings{
+    max-width: 64.27%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.habit-cards-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.habit-cards{
+    width: 230px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-image-container{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.habit-cards-container img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.habit-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.habit-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}

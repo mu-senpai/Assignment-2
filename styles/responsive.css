@@ -1,7 +1,16 @@
 /* Responsive for mobile or smaller devices */
 @media screen and (max-width: 576px){
     .miama-heading{ 
-        font-size: 4rem;
+        font-size: 4.2rem;
+    }
+
+    .section-container{
+        border: 1px solid black;
+        padding-top: 20px;
+    }
+
+    .section-heading{
+        font-size: 2rem;
     }
 
     .btn-primary{
@@ -15,12 +24,16 @@
 
     .banner-section{
         padding: none;
-        padding-top: 30px;
+        padding-top: 15px;
     }
 
     .banner-container{
         max-width: 95vw;
         margin: 0 auto;
+    }
+
+    .nav-bar{
+        margin-bottom: 20px;
     }
 
     .nav-listing-container{
@@ -74,5 +87,18 @@
         padding: 10px 15px;
         bottom: 40%;
         left: 0;
+    }
+
+    .change-habit-container{
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .change-habit-headings{
+        max-width: 90%;
+    }
+
+    .habit-cards-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
