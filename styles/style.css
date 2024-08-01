@@ -245,6 +245,7 @@
 /* banner content styling ends */
 /* banner section styling ends */
 
+/* change habit section stylings starts */
 .change-habit-container{
     max-width: 72.5vw;
     margin: 0 auto;
@@ -297,7 +298,9 @@
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
 }
+/* change habit section styling ends */
 
+/* extra mile section styling starts */
 .extra-mile-container{
     max-width: 73.61vw;
     margin: 0 auto;
@@ -345,4 +348,76 @@
     object-fit: none;
     object-position: 66% 30%;
     border-radius: 18px;
+}
+/* extra mile section styling ends */
+
+.team-section-container{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 76px;
+}
+
+.team-section-headings{
+    max-width: 63.3%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.team-members-grid{
+    width: 100%;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-members{
+    width: 100%;
+    height: 272px;
+    position: relative;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.team-members img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
+    /* opacity: 0.8; */
+}
+
+.team-members-description{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.team-members-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.team-members-role{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
 }

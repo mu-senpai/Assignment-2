@@ -143,4 +143,21 @@
         object-fit: cover;
     }
     /* extra mile section responsive ends */
+
+    /* team section responsive starts */
+    .team-section-container{
+        max-width: 100vw;
+        margin: 50px auto;
+    }
+
+    .team-section-headings{
+        max-width: 90%
+    }
+
+    .team-members-grid{
+        max-width: 80%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* team section responsive ends */
 }
