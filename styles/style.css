@@ -53,7 +53,6 @@
 
 /* banner section styling starts */
 .banner-section{
-    max-width: 1440px;
     background-color: rgba(0, 0, 0, 0.85);
     background-image: linear-gradient(0deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     border: 1px solid rgba(0, 0, 0, 0.85);
@@ -61,7 +60,7 @@
 }
 
 .banner-container{
-    max-width: 1060px;
+    max-width: 73.61vw;
     margin: 0 auto;
 }
 
@@ -122,11 +121,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .banner-content{
-    width: 45%;
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     gap: 28px;
@@ -156,6 +154,10 @@
     align-items: center;
 }
 
+.banner-image-container{
+    position: relative;
+}
+
 .banner-image{
     width: 35%;
 }
@@ -170,8 +172,8 @@
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     position: absolute;
-    bottom: 60px;
-    right: 275px;
+    bottom: 10%;
+    left: -27%;
 }
 
 .tutorial-round-ball{
@@ -202,8 +204,8 @@
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
-    top: 120px;
-    right: -30px;
+    top: 20%;
+    right: -10%;
 }
 
 .workout-box-number{

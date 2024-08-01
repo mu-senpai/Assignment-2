@@ -9,16 +9,18 @@
     }
     
     .btn-primary, .btn-secondary{
-        padding: 16px 10px;
+        padding: 16px 0px;
         width: 160px;
     }
 
     .banner-section{
+        padding: none;
         padding-top: 30px;
     }
 
-    .nav-bar{
-        padding: 0 20px;
+    .banner-container{
+        max-width: 95vw;
+        margin: 0 auto;
     }
 
     .nav-listing-container{
@@ -40,11 +42,6 @@
 
     .banner-heading{
         font-size: 2.25rem;
-        margin-left: 20px;
-    }
-
-    .banner-description{
-        margin-left: 20px;
     }
 
     .banner-button-container{
@@ -65,8 +62,8 @@
 
     .banner-image-workout-box{
         padding: 10px;
-        top: 57%;
-        right: 5%;
+        top: 10%;
+        right: 0;
     }
 
     .workout-box-number{
@@ -75,7 +72,7 @@
 
     .banner-image-tutorial-box{
         padding: 10px 15px;
-        bottom: 10%;
-        right: 42%;
+        bottom: 40%;
+        left: 0;
     }
 }
