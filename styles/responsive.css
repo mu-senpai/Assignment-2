@@ -25,7 +25,7 @@
     /* banner section responsive starts */
     .banner-section{
         padding: none;
-        padding-top: 15px;
+        padding-top: 20px;
     }
 
     .banner-container{
@@ -35,7 +35,7 @@
 
     /* nav-bar responsive starts */
     .nav-bar{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .nav-listing-container{
