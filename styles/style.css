@@ -151,6 +151,11 @@
     margin: 0;
 }
 
+.banner-button-container{
+    flex-direction: row;
+    align-items: center;
+}
+
 .banner-image{
     width: 35%;
 }

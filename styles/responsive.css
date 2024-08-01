@@ -1,19 +1,24 @@
-/* Responsive for S-size Mobile devices */
-@media screen and (max-width: 320px){
+/* Responsive for mobile or smaller devices */
+@media screen and (max-width: 576px){
     .miama-heading{ 
         font-size: 4rem;
     }
 
+    .btn-primary{
+        margin-right: none;
+    }
+    
     .btn-primary, .btn-secondary{
-        padding: 16px 20px;
+        padding: 16px 10px;
+        width: 160px;
     }
 
-    .banner-container{
-        margin-top: 30px;
+    .banner-section{
+        padding-top: 30px;
     }
 
     .nav-bar{
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     .nav-listing-container{
@@ -35,15 +40,15 @@
 
     .banner-heading{
         font-size: 2.25rem;
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .banner-description{
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .banner-button-container{
-        margin: 0 auto;
+        justify-content: space-evenly;
     }
 
     #banner-primary-button-mobile-span{
@@ -60,8 +65,8 @@
 
     .banner-image-workout-box{
         padding: 10px;
-        top: 440px;
-        right: 4px;
+        top: 57%;
+        right: 5%;
     }
 
     .workout-box-number{
@@ -69,154 +74,8 @@
     }
 
     .banner-image-tutorial-box{
-        padding: 10px;
-        bottom: 200px;
-        right: 135px;
-    }
-}
-
-/* Responsive for M-size Mobile devices */
-@media screen and (min-width: 320.5px) and (max-width: 375.5px){
-    .miama-heading{ 
-        font-size: 4rem;
-    }
-    
-    .btn-secondary{
-        padding: 16px 20px;
-    }
-
-    .banner-container{
-        margin-top: 30px;
-    }
-
-    .nav-bar{
-        padding: 0 20px;
-    }
-
-    .nav-listing-container{
-        display: none;
-    }
-
-    .hamburger-menu{
-        display: block;
-    }
-
-    .banner-content-container{
-        flex-direction: column;
-        gap: 48px;
-    }
-
-    .banner-content{
-        width: 100%;
-    }
-
-    .banner-heading{
-        font-size: 2.25rem;
-        margin-left: 20px;
-    }
-
-    .banner-description{
-        margin-left: 20px;
-    }
-
-    .banner-button-container{
-        margin: 0 auto;
-    }
-
-    #banner-primary-button-mobile-span{
-        display: none;
-    }
-
-    .banner-image{
-        width: 100%;
-    }
-
-    .banner-image img{
-        width: 100%;
-    }
-
-    .banner-image-workout-box{
         padding: 10px 15px;
-        top: 420px;
-        right: 12px;
-    }
-
-    .banner-image-tutorial-box{
-        padding: 10px 15px;
-        bottom: 250px;
-        right: 170px;
-    }
-}
-
-/* Responsive for L-size Mobile devices */
-@media screen and (min-width: 375.5px) and (max-width: 576px){
-    .miama-heading{ 
-        font-size: 4rem;
-    }
-    
-    .btn-secondary{
-        padding: 16px 20px;
-    }
-
-    .banner-container{
-        margin-top: 30px;
-    }
-
-    .nav-bar{
-        padding: 0 20px;
-    }
-
-    .nav-listing-container{
-        display: none;
-    }
-
-    .hamburger-menu{
-        display: block;
-    }
-
-    .banner-content-container{
-        flex-direction: column;
-        gap: 48px;
-    }
-
-    .banner-content{
-        width: 100%;
-    }
-
-    .banner-heading{
-        font-size: 2.25rem;
-        margin-left: 20px;
-    }
-
-    .banner-description{
-        margin-left: 20px;
-    }
-
-    .banner-button-container{
-        margin: 0 auto;
-    }
-
-    #banner-primary-button-mobile-span{
-        display: none;
-    }
-
-    .banner-image{
-        width: 100%;
-    }
-
-    .banner-image img{
-        width: 100%;
-    }
-
-    .banner-image-workout-box{
-        padding: 10px 20px;
-        top: 440px;
-        right: 20px;
-    }
-
-    .banner-image-tutorial-box{
-        padding: 10px 15px;
-        bottom: 300px;
-        right: 200px;
+        bottom: 10%;
+        right: 42%;
     }
 }
