@@ -22,6 +22,7 @@
         width: 160px;
     }
 
+    /* banner section responsive starts */
     .banner-section{
         padding: none;
         padding-top: 15px;
@@ -32,6 +33,7 @@
         margin: 0 auto;
     }
 
+    /* nav-bar responsive starts */
     .nav-bar{
         margin-bottom: 20px;
     }
@@ -43,7 +45,9 @@
     .hamburger-menu{
         display: block;
     }
+    /* nav-bar responsive ends */
 
+    /* banner content responsive starts */
     .banner-content-container{
         flex-direction: column;
         gap: 48px;
@@ -88,7 +92,10 @@
         bottom: 40%;
         left: 0;
     }
+    /* banner content responsive ends */
+    /* banner section responsive ends */
 
+    /* change habit section responsive starts */
     .change-habit-container{
         max-width: 90vw;
         margin: 0 auto;
@@ -101,4 +108,39 @@
     .habit-cards-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    /* change habit sections responsive ends */
+
+    /* extra mile section responsive starts */
+    .extra-mile-container{
+        max-width: 90vw;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .extra-mile-content-container{
+        width: 80%;
+        align-items: flex-start;
+    }
+
+    .extra-mile-description{
+        margin-bottom: 25px;
+    }
+
+    .extra-mile-content-container .btn-primary{
+        width: 100%;
+    }
+
+    .extra-mile-image-container{
+        width: 80%;
+        height: auto;
+    }
+
+    .extra-mile-image-container img{
+        width: 100%;
+        border-radius: 18px;
+        object-fit: cover;
+    }
+    /* extra mile section responsive ends */
 }
