@@ -212,4 +212,37 @@
         height: 100%;
     }
     /* calculate bmi section responsive ends */
+
+    /* footer section responsive starts */
+    .footer-section{
+        padding-top: 40px;
+    }
+
+    .footer-container{
+        max-width: 90vw;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-headings{
+        width: 85%;
+    }
+
+    .get-started-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .get-started-section{
+        width: 100%;
+    }
+
+    .footer-section hr{
+        max-width: 90vw;
+        margin: 0 auto;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        margin-top: 40px;
+    }
+    /* footer section responsive ends */
 }
