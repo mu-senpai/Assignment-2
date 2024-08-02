@@ -161,7 +161,7 @@
 }
 
 .banner-content{
-    width: 50%;
+    /* border: 1px solid white; */
     flex-direction: column;
     justify-content: center;
     gap: 28px;
@@ -192,7 +192,6 @@
 }
 
 .banner-image-container{
-    width: 35%;
     position: relative;
 }
 

@@ -52,10 +52,15 @@
 
     .banner-content{
         width: 100%;
+
     }
 
     .banner-heading{
         font-size: 2.25rem;
+    }
+
+    #banner-description-br{
+        display: none;
     }
 
     .banner-button-container{
@@ -64,10 +69,6 @@
 
     #banner-primary-button-mobile-span{
         display: none;
-    }
-
-    .banner-image-container{
-        width: 100%;
     }
     
     .banner-image img{
