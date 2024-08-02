@@ -64,6 +64,7 @@
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
+    text-align: center;
     border-radius: 42px;
     border: none;
     margin-right: 14px;
@@ -71,10 +72,12 @@
 
 .btn-secondary{
     background-color: transparent;
-    padding: 16px 40px;
+    width: 224px;
+    padding: 16px 0;
     color: rgb(255, 255, 255);
     font-size: 1.125rem;
     font-weight: 600;
+    text-align: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
 }
@@ -90,14 +93,19 @@
 .banner-container{
     max-width: 73.61vw;
     margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 32px;
 }
 
 /* nav-bar styling starts */
 .nav-bar{
+    height: 10%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .nav-heading{
@@ -115,8 +123,8 @@
 .nav-listing{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: baseline;
-    gap: 1.8rem;
 }
 
 .nav-listing li{
@@ -146,15 +154,17 @@
 
 /* banner content styling start */
 .banner-content-container{
+    height: 90%;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 
 .banner-content{
     width: 50%;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     gap: 28px;
 }
 
@@ -183,11 +193,17 @@
 }
 
 .banner-image-container{
+    width: 35%;
     position: relative;
 }
 
 .banner-image{
-    width: 35%;
+    width: 100%;
+    height: 100%;
+}
+
+.banner-image img{
+    height: 100%;
 }
 
 .banner-image-tutorial-box{
