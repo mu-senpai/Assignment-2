@@ -52,7 +52,6 @@
 
     .banner-content{
         width: 100%;
-
     }
 
     .banner-heading{
@@ -105,6 +104,11 @@
 
     .habit-cards-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habit-cards{
+        width: 60vw;
+        margin: 0 auto;
     }
     /* change habit sections responsive ends */
 
