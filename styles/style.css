@@ -199,8 +199,12 @@
 }
 
 .banner-image-container{
-    width: 35%;
     position: relative;
+}
+
+.banner-image{
+    width: 100%;
+    height: 100%;
 }
 
 .banner-image img{
@@ -379,6 +383,116 @@
     border-radius: 18px;
 }
 /* extra mile section styling ends */
+
+/* our package section styling starts */
+.our-package-section{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 78px;
+}
+
+.package-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 12px;
+}
+
+.package-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.package-name{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+}
+
+.package-price{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.package-duration{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.package-box button{
+    background-color: transparent;
+    width: 120px;
+    padding: 16px 0;
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 42px;
+}
+
+#premium-yearly-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(230, 83, 60);
+}
+
+#premium-yearly-box .package-name{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#premium-yearly-box .package-price{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#premium-yearly-box .package-duration{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#premium-yearly-box button{
+    background-color: transparent;
+    width: 140px;
+    padding: 16px 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 42px;
+}
+/* our package section styling ends */
 
 /* calculate bmi section styling starts */
 .bmi-section-headings{

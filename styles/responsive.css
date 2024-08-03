@@ -80,7 +80,7 @@
         width: 100%;
     }
     
-    .banner-image-container img{
+    .banner-image img{
         width: 100%;
     }
 
@@ -183,6 +183,24 @@
         object-fit: cover;
     }
     /* extra mile section responsive ends */
+
+    /* our package section responsive starts */
+    .our-package-section{
+        max-width: 90vw;
+        margin: 35px auto 0;
+        gap: 35px;
+        margin-bottom: 20px;
+    }
+
+    .package-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .package-box{
+        width: 90%;
+        margin: 0 auto;
+    }
 
     /* calculate bmi section responsive starts */
     .bmi-section-headings{
