@@ -197,23 +197,27 @@
         padding-bottom: 40px;
     }
 
-    .calculate-bmi-form-options{
+    /* .calculate-bmi-form-options{
         width: 100%;
         height: 50px;
         align-items: stretch;
-    }
+    } */
 
-    .calculate-bmi-form-options input[type="number"]{
+    /* .calculate-bmi-form-options input[type="number"]{
         width: 42%;
-    }
+    } */
 
-    .calculate-bmi-form-options select[id="Sex"]{
+    /* .calculate-bmi-form-options select[id="Sex"]{
         width: 47.5%;
         height: 100%;
-    }
+    } */
 
-    .calculate-bmi-form select[id="Activity"]{
+    /* .calculate-bmi-form select[id="Activity"]{
         height: 100%;
+    } */
+
+    .calculate-bmi-form-button{
+        margin-top: 20px;
     }
     /* calculate bmi section responsive ends */
 
