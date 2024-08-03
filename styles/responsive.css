@@ -18,8 +18,8 @@
     }
     
     .btn-primary, .btn-secondary{
+        width: 100%;
         padding: 16px 0px;
-        width: 160px;
     }
 
     /* banner section responsive starts */
@@ -55,6 +55,7 @@
     }
 
     .banner-heading{
+        width: 285px;
         font-size: 2.25rem;
     }
 
@@ -63,31 +64,65 @@
     }
 
     .banner-button-container{
+        width: 100%;
         justify-content: space-evenly;
+    }
+
+    .banner-button-container .btn-primary, .btn-secondary{
+        width: 50%;
     }
 
     #banner-primary-button-mobile-span{
         display: none;
     }
+
+    .banner-image-container{
+        width: 100%;
+    }
     
-    .banner-image img{
+    .banner-image-container img{
         width: 100%;
     }
 
     .banner-image-workout-box{
-        padding: 10px;
+        padding: 10px 17px;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9px;
+        backdrop-filter: blur(15px);
         top: 10%;
-        right: 0;
+        right: 5%;
     }
 
     .workout-box-number{
-        font-size: 2rem;
+        font-size: 1.9rem;
+        margin-bottom: 3px;
+    }
+
+    .workout-box-description{
+        font-size: 0.625rem;
     }
 
     .banner-image-tutorial-box{
-        padding: 10px 15px;
+        padding: 15px;
+        border: 0.76px solid rgba(255, 255, 255, 0.1);
+        border-radius: 9.07px;
+        backdrop-filter: blur(15.12px);
         bottom: 40%;
-        left: 0;
+        left: 5%;
+    }
+
+    .tutorial-round-ball{
+        width: 30px;
+        height: 30px;
+    }
+
+    .tutorial-box-number{
+        font-size: 1.125rem;
+        margin-bottom: 5px;
+    }
+
+    .tutorial-box-description{
+        font-size: 0.75rem;
     }
     /* banner content responsive ends */
     /* banner section responsive ends */
@@ -126,13 +161,14 @@
         padding: 30px;
         align-items: flex-start;
     }
+    
+    .extra-mile-heading{
+        max-width: 230px;
+        font-size: 2rem;
+    }
 
     .extra-mile-description{
         margin-bottom: 25px;
-    }
-
-    .extra-mile-content-container .btn-primary{
-        width: 100%;
     }
 
     .extra-mile-image-container{
@@ -147,23 +183,6 @@
         object-fit: cover;
     }
     /* extra mile section responsive ends */
-
-    /* team section responsive starts */
-    .team-section-container{
-        max-width: 100vw;
-        margin: 50px auto;
-    }
-
-    .team-section-headings{
-        max-width: 90%
-    }
-
-    .team-members-grid{
-        max-width: 80%;
-        margin: 0 auto;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    /* team section responsive ends */
 
     /* calculate bmi section responsive starts */
     .bmi-section-headings{
@@ -211,10 +230,28 @@
         height: 100%;
     }
 
-    .calculate-bmi-form-button{
+    .calculate-bmi-form .btn-primary{
+        width: 224px;
         margin-top: 20px;
     }
     /* calculate bmi section responsive ends */
+
+    /* team section responsive starts */
+    .team-section-container{
+        max-width: 100vw;
+        margin: 50px auto;
+    }
+    
+    .team-section-headings{
+        max-width: 90%
+    }
+    
+    .team-members-grid{
+        max-width: 80%;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* team section responsive ends */
 
     /* footer section responsive starts */
     .footer-section{
