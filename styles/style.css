@@ -292,6 +292,7 @@
 }
 
 .habit-cards-container{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
