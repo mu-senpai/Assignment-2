@@ -263,11 +263,21 @@
     .team-section-headings{
         max-width: 90%
     }
-    
-    .team-members-grid{
-        max-width: 80%;
+
+    .team-members-container{
+        width: 80%;
+        height: 1188px;
         margin: 0 auto;
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+
+    .team-members-container #column-1{
+        display: none;
+    }
+
+    .team-members-sub-container{
+        width: 100%;
+        height: 49.3%;
     }
     /* team section responsive ends */
 
