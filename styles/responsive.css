@@ -266,18 +266,28 @@
 
     .team-members-container{
         width: 80%;
-        height: 1188px;
         margin: 0 auto;
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .team-members-container #column-1{
+    #trainer1, #trainer4{
         display: none;
     }
 
-    .team-members-sub-container{
-        width: 100%;
-        height: 49.3%;
+    #trainer2{
+        order: 1;
+    }
+
+    #trainer5{
+        order: 2;
+    }
+
+    #trainer3{
+        order: 3;
+    }
+
+    #trainer6{
+        order: 4;
     }
     /* team section responsive ends */
 
