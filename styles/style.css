@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-normal{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.miama-heading{
+    font-family: 'Miama', sans-serif; 
+    font-size: 9rem;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-main{
+    background-color: rgb(0, 0, 0);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+.section-container{
+    border: 1px solid black;
+    padding-top: 100px;
+}
+
+.section-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.section-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    margin: 0;
+}
+
+.btn-primary{
+    background-color: rgb(230, 83, 60);
+    width: 224px;
+    padding: 16px 0px;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 42px;
+    border: none;
+    margin-right: 14px;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    width: 224px;
+    padding: 16px 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+}
+
+/* banner section styling starts */
+.banner-section{
+    background: linear-gradient(360deg, #000000, rgb(34, 34, 34), rgb(34, 34, 34), #000000);
+    padding-top: 60px;
+}
+
+.banner-container{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 32px;
+}
+
+/* nav-bar styling starts */
+.nav-bar{
+    height: 10%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-heading{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+
+.nav-listing-container{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px;
+    border-radius: 39px;
+}
+
+.nav-listing{
+    max-width: 465px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav-listing li{
+    list-style: none;
+}
+
+.nav-listing li a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: white;
+    padding: 0px 20px;
+    border-radius: 46px;
+}
+
+#nav-listing-home{
+    padding: 8px 0px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    border-radius: 46px;
+}
+
+.hamburger-menu{
+    display: none;
+}
+/* nav-bar styling ends */
+
+/* banner content styling start */
+.banner-content-container{
+    height: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.banner-content{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 28px;
+}
+
+.banner-heading{
+    width: 520px;
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 115%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin: 0;
+}
+
+.banner-button-container{
+    width: 85%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-button-container .btn-primary, .btn-secondary{
+    width: 50%;
+}
+
+.banner-image-container{
+    position: relative;
+}
+
+.banner-image{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-image img{
+    height: 100%;
+}
+
+.banner-image-workout-box{
+    padding: 15px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 20%;
+    right: -10%;
+}
+
+.workout-box-number{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.workout-box-description{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: left;
+}
+
+.banner-image-tutorial-box{
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    bottom: 10%;
+    left: -27%;
+}
+
+.tutorial-round-ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+
+.tutorial-box-number{
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.tutorial-box-description{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+/* banner content styling ends */
+/* banner section styling ends */
+
+/* change habit section stylings starts */
+.change-habit-container{
+    max-width: 72.5vw;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 58px;
+}
+
+.change-habit-headings{
+    max-width: 64.27%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.habit-cards-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.habit-cards{
+    width: 100%;;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-image-container{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.habit-image-container img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.habit-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.habit-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 18px;
+    text-align: center;
+}
+/* change habit section styling ends */
+
+/* extra mile section styling starts */
+.extra-mile-container{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-mile-content-container{
+    width: 41.5%;
+    padding: 40px 54px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.extra-mile-heading{
+    max-width: 300px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    line-height: 120%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.extra-mile-description{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 34px;
+}
+
+.extra-mile-image-container{
+    width: 34.52%;
+    height: 312px;
+    padding: 30px;
+}
+
+.extra-mile-image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    object-position: 66% 30%;
+    border-radius: 18px;
+}
+/* extra mile section styling ends */
+
+/* our package section styling starts */
+.our-package-section{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 78px;
+}
+
+.package-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 12px;
+}
+
+.package-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+}
+
+.package-name{
+    color: rgb(34, 34, 34);
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+
+.package-price{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.package-duration{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.package-box button{
+    background-color: transparent;
+    width: 120px;
+    padding: 16px 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 42px;
+}
+
+#premium-yearly-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    border-radius: 18px;
+    background-color: rgb(230, 83, 60);
+}
+
+#premium-yearly-box .package-name{
+    color: rgb(230, 83, 60);
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+#premium-yearly-box .package-price{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#premium-yearly-box .package-duration{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#premium-yearly-box button{
+    background-color: transparent;
+    width: 140px;
+    padding: 16px 0;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.3125rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 42px;
+}
+/* our package section styling ends */
+
+/* calculate bmi section styling starts */
+.bmi-section-headings{
+    max-width: 45.5vw;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.calculate-bmi-section{
+    max-width: 100vw;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(34, 34, 34);;
+    margin-top: 88px;
+}
+
+.calculate-bmi-container{
+    max-width: 73.61%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi-chart{
+    width: 45%;
+    padding: 52px 0 133px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 52px;
+}
+
+.calculate-bmi-heading{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.calculate-bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+
+.bmi-chart-table{
+    border-collapse: collapse;
+}
+
+.bmi-chart-table td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+}
+
+.bmi-chart-table thead td{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.bmi-chart-table tbody td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.calculate-bmi-form{
+    width: 55%;
+}
+
+.calculate-bmi-form-options{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.calculate-bmi-form input[type="number"]{
+    box-sizing: border-box;
+    width: 49%;
+    padding: 12px 0 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-form select[id="Sex"]{
+    box-sizing: border-box;
+    width: 49%;
+    padding: 12px 0 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-form select[id="Activity"]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 0 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-form select option{
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.calculate-bmi-form .btn-primary{
+    margin-top: 30px;
+}
+/* calculate bmi section styling ends */
+
+/* team section styling starts */
+.team-section-container{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 76px;
+}
+
+.team-section-headings{
+    max-width: 63.3%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.team-members-container{
+    width: 100%;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team-members{
+    width: 100%;
+    height: 272px;
+    position: relative;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.team-members img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+    object-position: top;
+}
+
+#trainer5 img{
+    object-position: 50% 40%;
+}
+
+#trainer6 img{
+    object-position: 0% 35%;
+}
+
+.team-members-description{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.team-members-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.team-members-role{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+/* team section styling ends */
+
+/* footer section styling starts */
+.footer-section{
+    max-width: 100vw;
+    padding-top: 66px;
+    padding-bottom: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.90);
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.footer-container{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-headings{
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-title{
+    font-size: 4.375rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    margin: 0;
+    text-align: left;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 24px;
+    text-align: left;
+}
+
+.get-started-container{
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.get-started-section{
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.get-started-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 39px;
+}
+
+.get-started-section a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.4375rem;
+    font-weight: 400;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-section hr{
+    max-width: 73.61vw;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 79px;
+}
+
+.footer-section .all-rights-reserved{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 35px auto 0;
+}
+/* footer section styling ends */
