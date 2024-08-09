@@ -147,6 +147,10 @@
     border-radius: 46px;
 }
 
+#nav-listing-home a{
+    font-weight: 600;
+}
+
 .hamburger-menu{
     display: none;
 }
