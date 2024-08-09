@@ -332,10 +332,7 @@
         padding-top: 70px;
     }
 
-<<<<<<< HEAD
     /* banner section responsive start */
-=======
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .banner-container{
         max-width: 100vw;
         margin: 0 auto;
@@ -383,13 +380,9 @@
         bottom: 20%;
         left: -25%;
     }
-<<<<<<< HEAD
     /* banner section responsive ends */
 
     /* habit section responsive starts */
-=======
-
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .change-habit-container{
         max-width: 76vw;
         margin: 0 auto;
@@ -402,13 +395,9 @@
     .habit-cards-container{
         grid-template-columns: repeat(2, 1fr);
     }
-<<<<<<< HEAD
     /* habit section responsive ends */
 
     /* extra mile section responsive starts */
-=======
-
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .extra-mile-container{
         max-width: 90vw;
         margin: 0 auto;
@@ -439,13 +428,7 @@
     .extra-mile-image-container img{
         zoom: 0.7;
     }
-<<<<<<< HEAD
-    /* extra mile section responsive ends */
 
-    /* our package section responsive starts */
-=======
-
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .our-package-section{
         max-width: 70vw;
         margin: 35px auto 0;
@@ -462,13 +445,9 @@
         width: 90%;
         margin: 0 auto;
     }
-<<<<<<< HEAD
     /* our package section responsive ends */
 
     /* bmi section responsive starts */
-=======
-
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .bmi-section-headings{
         max-width: 90vw;
         margin: 0 auto;
@@ -522,13 +501,9 @@
         width: 224px;
         margin-top: 20px;
     }
-<<<<<<< HEAD
     /* bmi section responsive ends */
 
     /* team section responsive starts */
-=======
-
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .team-section-container{
         max-width: 100vw;
     }
@@ -541,13 +516,9 @@
         width: 85%;
         margin: 0 auto;
     }
-<<<<<<< HEAD
     /* team section responsive ends */
 
     /* footer section responsive starts */
-=======
-
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
     .footer-section{
         padding-top: 40px;
     }
@@ -573,8 +544,5 @@
         border: 2px solid rgba(255, 255, 255, 0.1);
         margin-top: 40px;
     }
-<<<<<<< HEAD
     /* footer section responsive ends */
-=======
->>>>>>> 5661559e64e46d52e4b68810dcb95d0f8f3370f0
 }
