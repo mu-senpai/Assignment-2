@@ -302,7 +302,7 @@
 }
 
 .habit-cards{
-    width: 100%;;
+    width: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -395,6 +395,14 @@
     flex-direction: column;
     align-items: center;
     gap: 78px;
+}
+
+.our-package-headings{
+    max-width: 64.27%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
 }
 
 .package-container{

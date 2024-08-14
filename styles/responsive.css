@@ -428,12 +428,18 @@
     .extra-mile-image-container img{
         zoom: 0.7;
     }
+    /* extra mile section responsive ends */
 
+    /* our package section responsive starts */
     .our-package-section{
-        max-width: 70vw;
+        max-width: 90vw;
         margin: 35px auto 0;
         gap: 35px;
         margin-bottom: 20px;
+    }
+
+    .our-package-headings{
+        max-width: 90%;
     }
 
     .package-container{
