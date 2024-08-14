@@ -192,6 +192,10 @@
         margin-bottom: 20px;
     }
 
+    .our-package-headings{
+        max-width: 90%;
+    }
+
     .package-container{
         grid-template-columns: repeat(1, 1fr);
         gap: 30px;
