@@ -165,14 +165,14 @@
 }
 
 .banner-content{
-    width: 50%;
+    width: 48%;
     flex-direction: column;
     justify-content: center;
     gap: 28px;
 }
 
 .banner-heading{
-    width: 520px;
+    width: 445px;
     font-size: 4.875rem;
     font-weight: 900;
     line-height: 115%;
@@ -212,6 +212,7 @@
 
 .banner-image img{
     height: 100%;
+    object-fit: contain;
 }
 
 .banner-image-workout-box{
@@ -731,7 +732,6 @@
 .footer-container{
     max-width: 73.61vw;
     margin: 0 auto;
-    /* border: 1px solid white; */
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;

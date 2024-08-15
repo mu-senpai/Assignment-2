@@ -556,3 +556,45 @@
     }
     /* footer section responsive ends */
 }
+
+@media screen and (min-width: 1440.0001px) {
+    .banner-content-container{
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .change-habit-container{
+        max-width: 1044px;
+        margin: 0 auto;
+    }
+
+    .extra-mile-container{
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .our-package-section{
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .bmi-section-headings{
+        max-width: 655px;
+        margin: 0 auto;
+    }
+
+    .calculate-bmi-container{
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .team-section-container{
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+
+    .footer-container{
+        max-width: 1060px;
+        margin: 0 auto;
+    }
+}
